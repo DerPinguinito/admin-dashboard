@@ -5,6 +5,23 @@
     font-size: 18px
 }
 
+/* header section */ 
+
+#bell {
+    height: 30px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#user-pfp {
+    height: 30px;
+    width:  30px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+/* sidebar section */ 
 
 #logo {
     height: 100px;
