@@ -5,7 +5,29 @@
     font-size: 18px
 }
 
+/* body */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* main */
+
+main {
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
 /* header section */ 
+
+#header {
+    border: 2px solid blue;
+    grid-column: 2 / 5;
+
+}
 
 #bell {
     height: 30px;
@@ -21,7 +43,21 @@
     border: 1px solid black;
     border-radius: 50%;
 }
+
+.greeting > img {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
 /* sidebar section */ 
+
+#sidebar {
+    border: 2px solid red;
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+}
 
 #logo {
     height: 100px;
@@ -34,4 +70,12 @@
 #sidebar > div > ul > li > a:visited {
     text-decoration: none;
     color: inherit;
+}
+
+/* content section */
+
+#content {
+    border: 2px solid darkgreen;
+    grid-column: 2 / 6;
+    grid-row: 2 / 6;
 }
