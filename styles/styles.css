@@ -2,4 +2,12 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-size: 18px
+}
+
+
+#logo {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
 }
