@@ -11,3 +11,10 @@
     width: 100px;
     border: 1px solid black;
 }
+
+#sidebar > div > ul > li > a:link,
+#sidebar > div > ul > li > a:active,
+#sidebar > div > ul > li > a:visited {
+    text-decoration: none;
+    color: inherit;
+}
